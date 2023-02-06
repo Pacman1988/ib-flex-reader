@@ -33,6 +33,7 @@ steps:
     command: pack
     packagesToPack: '**/Biehler.IbFlexReader.csproj'
     packDestination: '$(Build.ArtifactStagingDirectory)'
+    buildProperties: 'description=test'
     
 - task: NuGetAuthenticate@0
   displayName: 'NuGet Authenticate'
