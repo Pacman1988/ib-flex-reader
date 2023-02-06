@@ -2,7 +2,7 @@
 
   <Target DependsOnTargets="ResolveReferences" Name="CopyProjectReferencesToPackage">
     <ItemGroup>
-      <BuildOutputInPackage Include="@(ReferenceCopyLocalPaths->WithMetadataValue('ReferenceSourceTarget', 'ProjectReference'))"/>
+      <BuildOutputInPackage Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference'))" />
     </ItemGroup>
   </Target>
 
@@ -14,7 +14,7 @@
 
     <Title>Interactive Brokers Flex Query Reader</Title>
     <Authors>Josef Biehler (gabbersepp)</Authors>
-    <Description>Easily read any flex query. Provides the whole data model.</Description>
+    <Description>No</Description>
     <Copyright>Josef Biehler (gabbersepp)</Copyright>
     <PackageProjectUrl>https://github.com/gabbersepp/ib-flex-reader</PackageProjectUrl>
     <RepositoryUrl>https://github.com/gabbersepp/ib-flex-reader</RepositoryUrl>
