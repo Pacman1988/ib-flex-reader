@@ -33,6 +33,7 @@ steps:
     command: pack
     packagesToPack: '**/*.csproj'
     packDestination: '$(Build.ArtifactStagingDirectory)'
+    buildProperties: 'Authors="Marco Wagner";Description="Test"'
     
 - task: NuGetAuthenticate@0
   displayName: 'NuGet Authenticate'
