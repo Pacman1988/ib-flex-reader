@@ -14,7 +14,6 @@
 
     <Title>Interactive Brokers Flex Query Reader</Title>
     <Authors>Josef Biehler (gabbersepp)</Authors>
-    <Description>No</Description>
     <Copyright>Josef Biehler (gabbersepp)</Copyright>
     <PackageProjectUrl>https://github.com/gabbersepp/ib-flex-reader</PackageProjectUrl>
     <RepositoryUrl>https://github.com/gabbersepp/ib-flex-reader</RepositoryUrl>
@@ -22,6 +21,8 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Version>2.5.2</Version>
+  </PropertyGroup>
+</Project>
 
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
   </PropertyGroup>
