@@ -5,6 +5,7 @@
     <RootNamespace>IbFlexReader.Contracts</RootNamespace>
 		<RunCodeAnalysis>False</RunCodeAnalysis>
 	<CodeAnalysisRuleSet>./../stylecop.ruleset</CodeAnalysisRuleSet>
+	<Description>dfscssasadas</Description>
   </PropertyGroup>
 
      <PropertyGroup Condition="'$(BuildingInsideVisualStudio)' != 'true'"> 
