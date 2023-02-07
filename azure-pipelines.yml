@@ -46,5 +46,5 @@ steps:
   displayName: 'NuGet push'
   inputs:
     command: push
-    publishVstsFeed: 'https://pkgs.dev.azure.com/WagnerPrivate/_packaging/PaydayManagerNuGet/nuget/v3/index.json'
+    publishVstsFeed: 'Payday.Manager/PaydayManagerNuGet'
     allowPackageConflicts: true
