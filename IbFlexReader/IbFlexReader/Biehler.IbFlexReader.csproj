@@ -24,7 +24,7 @@
 		<PackageDescription>Test</PackageDescription>
 
 		<TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
-
+		
 		<Description>Test</Description>
 	</PropertyGroup>
 
