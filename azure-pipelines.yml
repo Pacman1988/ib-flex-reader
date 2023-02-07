@@ -46,5 +46,6 @@ steps:
   displayName: 'NuGet push'
   inputs:
     command: push
-    publishVstsFeed: 'Payday.Manager/PaydayManagerNuGet'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: 'be49766e-4ca7-4042-b6bd-17c45b12191a'
     allowPackageConflicts: true
