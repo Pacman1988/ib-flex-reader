@@ -9,9 +9,9 @@ variables:
   buildPlatform: 'AnyCPU'
   buildConfiguration: 'Release'
   appxPackageDir: '$(build.artifactStagingDirectory)\AppxPackages\\'
-  Major: '1'
-  Minor: '0'
-  Patch: '0'
+  Major: '2'
+  Minor: '5'
+  Patch: '2'
 
 steps:
 - task: NuGetToolInstaller@1
@@ -40,7 +40,8 @@ steps:
 - task: NuGetCommand@2
   displayName: 'NuGet push'
   inputs:
-    command: push
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'be49766e-4ca7-4042-b6bd-17c45b12191a'
+    publishVstsFeed: '27ae9793-755b-4dca-ad94-e68199945659'
     allowPackageConflicts: true
